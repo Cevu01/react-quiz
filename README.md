@@ -1,3 +1,3 @@
 # Quiz about react
 
-Still in building proces...
+15 questions about react, if time runs out you lose.
