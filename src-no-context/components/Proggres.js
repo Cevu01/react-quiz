@@ -1,8 +1,4 @@
-import { useQuiz } from "../context/QuizContext";
-
-function Proggres() {
-  const { index, numQuestions, points, maxPossiblePoints, answer } = useQuiz();
-
+function Proggres({ index, numQuestions, points, maxPossiblePoints, answer }) {
   return (
     <header className="progress">
       <progress max={numQuestions} value={index + Number(answer !== null)} />
